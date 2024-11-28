@@ -1,4 +1,5 @@
-![Metrics](/github-metrics.svg)
+![Profile](/github-metrics.svg)
+![RSS](/metrics.plugin.rss.svg)
 
 **Working on [Video Ocean](https://video-ocean.com/)**
 
