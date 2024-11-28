@@ -1,11 +1,11 @@
-<p align="end">
-  <img src="/github-metrics.svg" alt="Metrics">
+<p align="center">
+  <img src="/github-metrics.svg" alt="Metrics" width="600">
 </p>
-<p align="end">
-  <img src="/metrics.plugin.isocalendar.svg" alt="Contributions">
+<p align="center">
+  <img src="/metrics.plugin.isocalendar.svg" alt="Contributions" width="600">
 </p>
-<p align="end">
+<p align="center">
   <a href="https://stories.ldwid.com/">
-    <img src="/metrics.plugin.rss.svg" alt="RSS">
+    <img src="/metrics.plugin.rss.svg" alt="RSS" width="600">
   </a>
 </p>
