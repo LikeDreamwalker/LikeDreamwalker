@@ -1,4 +1,4 @@
-<p align="left"><img src="/github-metrics.svg" alt="Metrics" width="60%"></p>
+![Metrics](/github-metrics.svg)
 
 **Working on [Video Ocean](https://video-ocean.com/)**
 
