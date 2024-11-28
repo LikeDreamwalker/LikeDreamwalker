@@ -1,4 +1,4 @@
-<p align="center"><img src="/github-metrics.svg" alt="Metrics" width="60%"></p>
+<p align="left"><img src="/github-metrics.svg" alt="Metrics" width="60%"></p>
 
 **Working on [Video Ocean](https://video-ocean.com/)**
 
