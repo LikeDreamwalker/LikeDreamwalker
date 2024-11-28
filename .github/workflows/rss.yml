@@ -20,6 +20,6 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_rss: yes
-          plugin_rss_source: https://likedreamwalker.medium.com/feed
+          plugin_rss_source: https://medium.com/feed/@likedreamwalker
           plugin_rss_limit: 4
           
