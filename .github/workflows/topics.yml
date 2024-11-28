@@ -1,8 +1,31 @@
-name: Labels
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.topics.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_topics: yes
-  plugin_topics_limit: 12
+name: Generate Metrics
+
+on:
+  schedule: # Run at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 12
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add metrics.plugin.topics.svg
+          git commit -m 'Update metrics'
+          git push
