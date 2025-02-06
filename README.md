@@ -1,8 +1,8 @@
 <p>
-  <img src="/github-metrics.svg" alt="Metrics" width="500">
+<!--   <img src="/github-metrics.svg" alt="Metrics" width="500"> -->
 </p>
 <p>
-  <img src="/metrics.plugin.isocalendar.svg" alt="Contributions" width="500">
+<!--   <img src="/metrics.plugin.isocalendar.svg" alt="Contributions" width="500"> -->
 </p>
 <p>
   <a href="https://stories.ldwid.com/">
